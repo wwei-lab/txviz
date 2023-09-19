@@ -1,0 +1,28 @@
+Package: txviz
+Title: Transcript visualization tool
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zuoyichen", "Zuoyichen", , "Zuoyichen2022@sinh.ac.cn", role = c("aut", "cre"))
+Description: A transcript visualization tool that can display the transcript structure and read structure of multiple genes under a large field of view. It is possible to show the structural differences of transcripts by entering multiple sample data.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    dplyr,
+    GenomicAlignments,
+    GenomicRanges,
+    ggplot2,
+    R (>= 2.10),
+    rtracklayer,
+    tidyr
+Imports: 
+    cowplot,
+    ggnewscale,
+    ggtranscript
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
