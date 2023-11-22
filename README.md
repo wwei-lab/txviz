@@ -6,6 +6,7 @@
 ``` r
 # you can install the development version of txviz from GitHub:
 # install.packages("devtools")
+devtools::install_github("dzhang32/ggtranscript")
 devtools::install_github("wwei-lab/txviz")
 ```
 ## Usage
@@ -59,7 +60,7 @@ Drawing the transcript exon and intron structure of multiple genes at a large sc
   return a ggplot2 object
 * Test Code
 ``` r
-multi_gene(annotation,MUT1_read,readmap,chr='6',strand="both",range=c(36500000,36750000),limit=30,show_transcript_name=)
+multi_gene(annotation,MUT1_read,readmap,chr='6',strand="both",range=c(36500000,36750000),limit=30,show_transcript_name=True)
 ```
 <img src="man/figures/multi_gene_fig.png" width="100%" />
 
