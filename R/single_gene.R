@@ -92,7 +92,8 @@ single_gene=function(annotation,read,readmap,chr,range,strand="+",
   #get the common transcript_id's read data
   read= single_gene_filter_transcriptID(read,transcript_ids)
   genemap= single_gene_get_genemap(annotation,transcript_ids,show_transcript_name)
-  genemap$gene_name=anno_map$gene_name[match(anno_map$gene_id,genemap$gene_id)]
+  #genemap$gene_name=anno_map$gene_name[match(anno_map$gene_id,genemap$gene_id)]
+  genemap=left_join(genemap,anno_map, by = "gene_id")
   genemap$gene_name[is.na(genemap$gene_name)] <- genemap$gene_id[is.na(genemap$gene_name)]
   gene_ids=unique(genemap$gene_id)
   #add the transcript_name for read data

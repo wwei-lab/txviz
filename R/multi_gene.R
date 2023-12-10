@@ -16,18 +16,18 @@
 #' @param text_color The font color of transcript name.
 #' @param text_size The font size of transcript name.
 #' @param text_alpha The font transparency of transcript name.
-#' @param text_fontface The  font shape of transcript name.
+#' @param text_fontface The font shape of transcript name.
 #' @param title_color The font color  of tittle name.
 #' @param title_size The font size of tittle name.
-#' @param title_face The  font shape of tittle name.
+#' @param title_face The font shape of tittle name.
 #' @param num_color The font color of read number.
 #' @param num_size The font size of read number.
 #' @param num_alpha The font transparency of read number.
-#' @param num_fontface The  font shape of read number.
+#' @param num_fontface The font shape of read number.
 #' @param num_margin The read numbe moves to the left.
 #' @param show_transcript_name Whether the transcript name is displayed in the plot.
-#' @param x_text_size The text size of x axis.
-#' @param x_text_just Adjust the x - axis text position.
+#' @param x_text_size The text size of x-axis.
+#' @param x_text_just Adjust the x-axis text position.
 #' @return return a ggplot2 object
 #' @importFrom ggnewscale new_scale_color new_scale_fill
 #' @importFrom ggtranscript to_intron geom_range geom_intron

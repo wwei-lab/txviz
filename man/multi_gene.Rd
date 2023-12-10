@@ -68,17 +68,17 @@ multi_gene(
 
 \item{text_alpha}{The font transparency of transcript name.}
 
-\item{text_fontface}{The  font shape of transcript name.}
+\item{text_fontface}{The font shape of transcript name.}
 
 \item{title_color}{The font color  of tittle name.}
 
 \item{title_size}{The font size of tittle name.}
 
-\item{title_face}{The  font shape of tittle name.}
+\item{title_face}{The font shape of tittle name.}
 
-\item{x_text_size}{The text size of x axis.}
+\item{x_text_size}{The text size of x-axis.}
 
-\item{x_text_just}{Adjust the x - axis text position.}
+\item{x_text_just}{Adjust the x-axis text position.}
 
 \item{num_color}{The font color of read number.}
 
@@ -86,7 +86,7 @@ multi_gene(
 
 \item{num_alpha}{The font transparency of read number.}
 
-\item{num_fontface}{The  font shape of read number.}
+\item{num_fontface}{The font shape of read number.}
 
 \item{num_margin}{The read numbe moves to the left.}
 

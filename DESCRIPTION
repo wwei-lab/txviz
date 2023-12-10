@@ -20,7 +20,8 @@ Depends:
 Imports: 
     cowplot,
     ggnewscale,
-    ggtranscript
+    ggtranscript,
+    IRanges
 LazyData: true
 Suggests: 
     knitr,
